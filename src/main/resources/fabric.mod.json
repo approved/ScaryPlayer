@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "scary-player",
+  "version": "${version}",
+  "name": "Scary Player",
+  "description": "A Minecraft mod that makes it so that villagers will be scared of you while you are wearing mob heads. ",
+  "authors": [
+    "Approved"
+  ],
+  "contact": {
+    "website": "https://odd.dev/Minecraft/ScaryPlayer",
+    "repo": "https://github.com/approved/ScaryPlayer"
+  },
+  "license": "LGPL-3.0",
+  "icon": "assets/scary-player/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.odd.scaryplayer.ScaryPlayer"
+    ]
+  },
+  "mixins": [
+    "scary-player.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.10.8",
+    "fabric": "*",
+    "minecraft": ">=1.16"
+  }
+}

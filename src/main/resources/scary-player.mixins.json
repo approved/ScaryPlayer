@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.odd.scaryplayer.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "entity.ai.brain.sensor.VillagerHostilesSensorMixin",
+    "entity.passive.VillagerEntityMixin",
+    "entity.player.PlayerEntityMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
