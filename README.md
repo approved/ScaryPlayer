@@ -13,7 +13,8 @@ Scary items are defined by a data tag located in `data\scaryplayer\tags\items\sc
 * Creeper
 * Dragon Head
 
-![Preview of the interaction.](https://odd.dev/Minecraft/ScaryPlayer/showcase-preview.gif)
+# Preview
+![Preview of the interaction.](https://odd.dev/Minecraft/ScaryPlayer/showcase-preview-small.gif)
 
 # Credits
 To Reddit user [u/SkyKnight789](https://www.reddit.com/user/SkyKnight789/) for the original idea.
