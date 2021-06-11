@@ -14,12 +14,12 @@ public abstract class PlayerEntityMixin implements CanBeScary {
 
     public boolean isScary() {
         ItemStack mainItem = this.inventory.getMainHandStack();
-        if (!mainItem.isEmpty() && mainItem.getItem().isIn(ScaryPlayer.SCARY_TAG)) {
+        if (!mainItem.isEmpty() && mainItem.isIn(ScaryPlayer.SCARY_TAG)) {
             return true;
         }
 
         for (ItemStack armor: this.inventory.armor) {
-            if (armor.getItem().isIn(ScaryPlayer.SCARY_TAG)) {
+            if (armor.isIn(ScaryPlayer.SCARY_TAG)) {
                 return true;
             }
         }
@@ -29,5 +29,5 @@ public abstract class PlayerEntityMixin implements CanBeScary {
 
     @Shadow
     @Final
-    public PlayerInventory inventory;
+    private PlayerInventory inventory;
 }

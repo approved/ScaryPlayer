@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>ScaryPlayer</name>
-	<comment>Project ScaryPlayer created by Buildship.</comment>
+	<name>WynncraftEssentials</name>
+	<comment>Project WynncraftEssentials created by Buildship.</comment>
 	<projects>
 	</projects>
 	<buildSpec>
@@ -22,7 +22,7 @@
 	</natures>
 	<filteredResources>
 		<filter>
-			<id>1607411009602</id>
+			<id>1623230591912</id>
 			<name></name>
 			<type>30</type>
 			<matcher>
